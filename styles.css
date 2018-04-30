@@ -24,7 +24,7 @@ body {
 
     .section {
         background-color: blue;
-        color: gray;
+        color: black;
         text-align: left;
         border: 1px solid blue;
         font-family: Ariel, sans-serif;
@@ -55,7 +55,7 @@ body {
 
     .section {
         background-color: blue;
-        color: gray;
+        color: black;
         text-align: left;
         font-family: Ariel, sans-serif;
         font-size: 12px;
