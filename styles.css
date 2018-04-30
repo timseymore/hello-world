@@ -20,6 +20,16 @@ body {
         font-size: 24px;
         font-weight: bold;
     }
+
+    .section {
+        background-color: blue;
+        color: gray;
+        text-align: left;
+        border: 1px solid blue;
+        font-family: Ariel, sans-serif;
+        font-size: 18px;
+        font-weight: bold;
+    }
 }
 
 @media (max-width: 499px) {
@@ -31,7 +41,7 @@ body {
         font-size: 24px;
         font-weight: bold;
     }
-    
+
     .search {
         background-color: blue;
         color: gray;
@@ -39,6 +49,15 @@ body {
         border: 1px solid blue;
         font-family: Ariel, sans-serif;
         font-size: 18px;
+        font-weight: bold;
+    }
+
+    .section {
+        background-color: blue;
+        color: gray;
+        text-align: left;
+        font-family: Ariel, sans-serif;
+        font-size: 12px;
         font-weight: bold;
     }
 
@@ -50,3 +69,4 @@ body {
     margin-right: auto;
     width: 50%;
 }
+
