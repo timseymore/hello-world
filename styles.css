@@ -4,29 +4,29 @@ body {
 
 @media (min-width: 500px) {
     header {
-        color: blue;
+        color: rgb(25, 25, 215);
         text-align: center;
-        border: 5px solid blue;
+        border: 5px solid rgb(25, 25, 215);
         font-family: Ariel, sans-serif;
         font-size: 35px;
         font-weight: bold;
     }
 
     .search {
-        background-color: blue;
-        color: gray;
+        background-color: rgb(25, 25, 215);
+        color: rgb(135, 135, 135);
         text-align: left;
-        border: 3px solid blue;
+        border: 3px solid rgb(25, 25, 215);
         font-family: Ariel, sans-serif;
         font-size: 24px;
         font-weight: bold;
     }
 
     .section {
-        background-color: blue;
+        background-color: rgb(25, 25, 215);
         color: black;
         text-align: left;
-        border: 1px solid blue;
+        border: 1px solid rgb(25, 25, 215);
         font-family: Ariel, sans-serif;
         font-size: 16px;
         font-weight: bold;
@@ -41,26 +41,26 @@ body {
 
 @media (max-width: 499px) {
     header {
-        color: blue;
+        color: rgb(25, 25, 215);
         text-align: center;
-        border: 3px solid blue;
+        border: 3px solid rgb(25, 25, 215);
         font-family: Ariel, sans-serif;
         font-size: 24px;
         font-weight: bold;
     }
 
     .search {
-        background-color: blue;
+        background-color: rgb(25, 25, 215);
         color: gray;
         text-align: left;
-        border: 1px solid blue;
+        border: 1px solid rgb(25, 25, 215);
         font-family: Ariel, sans-serif;
         font-size: 18px;
         font-weight: bold;
     }
 
     .section {
-        background-color: blue;
+        background-color: rgb(25, 25, 215);
         color: black;
         text-align: left;
         font-family: Ariel, sans-serif;
@@ -85,6 +85,6 @@ body {
 }
 
 .links {
-    color: blue;
+    color: rgb(25, 25, 215);
     font-family: Ariel, sans-serif;
 }
