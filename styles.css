@@ -28,8 +28,14 @@ body {
         text-align: left;
         border: 1px solid blue;
         font-family: Ariel, sans-serif;
-        font-size: 18px;
+        font-size: 16px;
         font-weight: bold;
+    }
+
+    h1 {
+        border: 3px solid black;
+        font-size: 20px;
+        text-align: center;
     }
 }
 
@@ -62,7 +68,14 @@ body {
         font-weight: bold;
     }
 
+    h1 {
+        border: 1px solid black;
+        font-size: 13px;
+        text-align: center;
+    }
+
 }
+
 
 .center {
     display: block;
