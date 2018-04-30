@@ -11,8 +11,9 @@ body {
         font-weight: bold;
     }
 
-    form {
-        color: blue;
+    .search {
+        background-color: blue;
+        color: gray;
         text-align: left;
         border: 3px solid blue;
         font-family: Ariel, sans-serif;
@@ -30,8 +31,10 @@ body {
         font-size: 24px;
         font-weight: bold;
     }
-    form {
-        color: blue;
+    
+    .search {
+        background-color: blue;
+        color: gray;
         text-align: left;
         border: 1px solid blue;
         font-family: Ariel, sans-serif;
@@ -39,4 +42,11 @@ body {
         font-weight: bold;
     }
 
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
