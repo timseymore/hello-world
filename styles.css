@@ -71,3 +71,7 @@ body {
     width: 50%;
 }
 
+.links {
+    color: blue;
+    font-family: Ariel, sans-serif;
+}
