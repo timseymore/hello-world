@@ -1,50 +1,117 @@
 <!DOCTYPE html>
-
 <html lang="en">
-
     <head>
-        <title>Tim's Homepage</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" 
+        content="width=device-width, 
+        initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" 
+        content="ie=edge">
+        <script defer src="https://use.fontawesome.com/releases/v5.0.11/js/all.js" 
+        integrity="sha384-ImVoB8Er8knetgQakxuBS4G3RSkyD8IZVVQCAnmRJrDwqJFYUE4YOv+DbIofcO9C" 
+        crossorigin="anonymous"></script>
         <link rel="stylesheet" href="styles.css">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tim's Homepage</title>
     </head>
+
     <body>
-        <header>Hello, world!</header>   
+        <div class="wrapper">
+            <!-- Navigation -->
+            <nav class="main-nav">    
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
 
-        <!-- Google search box --> 
-        <form class="search" method="get" action="https://www.google.com/search">            
-            Search Google <input type="text" name="q" size="40%" value="" placeholder="I'm looking for...">
-        </form>
+            <!-- Top Container -->
+            <section class="top-container">
+                <header class="showcase">
+                    <h1>Hello, world!</h1>
+                    <p>Welcome to my homepage.</p>
+                </header>
+                <div class="top-box top-box-a">
+                    <h4>About Me</h4>
+                    <p class="text">
+                        Hello, my name is Tim and I have recently started learning to program. 
+                        The experience is proving to be challenging, yet greatly rewarding. 
+                        I have created this page as a way to practice my coding skills and also to 
+                        provide links and info that may be useful to others who are new to programming 
+                        and computer science in general. This page will most likely recieve constant updates and 
+                        changes as I develop my own skills. Thanks for looking!
+                    </p>                    
+                </div>
+                <div class="top-box top-box-b">
+                    <h4>Helpful Links</h4>
+                    <p class="text">
+                        <ul>
+                            <li><a href="https://www.python.org/">Get started programming with Python</a></li>
+                            <li><a href="https://stackoverflow.com/">Stack Overflow is a great source for answers</a></li>
+                            <li><a href="https://courses.edx.org/courses/course-v1:HarvardX+CS50+X/course/">CS50's Introduction to Computer Science on edX</a></li>
+                            <li><a href="https://courses.edx.org/courses/course-v1:MITx+6.00.1x+2T2017_2/course/">MITx: 6.00.1x Introduction to Computer Science and Programming using Python on edX</a></li>
+                        </ul>
+                    </p>                    
+                </div>
+            </section>
 
-        <!-- Mars image -->  
-        <img src="mars.jpg" class="center">
+            <!-- Boxes Section -->
+            <section class="boxes">
+                <div class="box">
+                    <i class="fas fa-chart-pie fa-4x"></i>
+                    <h3>Analytics</h3>
+                    <p></p>
+                </div>
+                <div class="box">
+                    <i class="fas fa-globe fa-4x"></i>
+                    <h3>Marketing</h3>
+                    <p></p>
+                </div>
+                <div class="box">
+                    <i class="fas fa-cog fa-4x"></i>
+                    <h3>Development</h3>
+                    <p></p>
+                </div>
+                <div class="box">
+                        <i class="fas fa-users fa-4x"></i>
+                        <h3>Support</h3>
+                        <p></p>
+                </div>
+            </section>
 
-        <!-- About me section -->
-        <div class="section">
-            <h1>About Me</h1>
-            <p1>
-                Hello, my name is Tim and I have recently started learning to program. 
-                The experience is proving to be challenging, yet greatly rewarding. 
-                I have created this page as a way to practice my coding skills and also to 
-                provide links and info that may be useful to others who are new to programming 
-                and computer science in general. This page will most likely recieve constant updates and 
-                changes as I develop my own skills. Thanks for looking!
-            </p1>
+            <!-- Info section -->
+            <section class="info">
+                <img src="images\mars.jpg" alt="">
+                <div>
+                    <h2>Connect</h2>
+                    <p>
+                        <ul>
+                            <li><a href="https://www.facebook.com/tim.seymore.75">Add me on Facebook</a></li>
+                            <li><a href="https://www.youtube.com/channel/UC2vk70G_w_1tGQrNobts1eg">My YouTube channel</a></li>
+                            <li><a href="https://github.com/timseymore">View my projects on GitHub</a></li>
+                        </ul>
+                    </p>
+                </div>
+            </section>
+
+            <!-- Portfolio Section -->
+            <section class="portfolio">
+                <img src="images\brookcar.jpg" alt="">
+                <img src="images\brothers.jpg" alt="">
+                <img src="images\brothers1.jpg" alt="">
+                <img src="images\cookout.jpg" alt="">
+                <img src="images\eclipse.jpg" alt="">
+                <img src="images\family.jpg" alt="">
+                <img src="images\midnight.jpg" alt="">
+            
+            </section>
+
+            <!-- Footer Section -->
+            <footer>
+                <p>Tim Seymore &copy; 2018</p>
+            </footer>
         </div>
-        <div class="links">
-            <h2>Helpful Links</h2>
-            <ul>
-                <li><a href="https://www.python.org/">Get started programming with Python</a></li>
-                <li><a href="https://stackoverflow.com/">Stack Overflow is a great source for answers</a></li>
-                <li><a href="https://courses.edx.org/courses/course-v1:HarvardX+CS50+X/course/">CS50's Introduction to Computer Science on edX</a></li>
-                <li><a href="https://courses.edx.org/courses/course-v1:MITx+6.00.1x+2T2017_2/course/">MITx: 6.00.1x Introduction to Computer Science and Programming using Python on edX</a></li>
-            </ul>
-            <h2>Connect</h2>
-            <ul>
-                <li><a href="https://www.facebook.com/tim.seymore.75">Add me on Facebook</a></li>
-                <li><a href="https://www.youtube.com/channel/UC2vk70G_w_1tGQrNobts1eg">My YouTube channel</a></li>
-                <li><a href="https://github.com/timseymore">View my projects on GitHub</a></li>
-            </ul>
-        </div>
-
+        <!-- Wrapper ends -->   
     </body>
 </html>
