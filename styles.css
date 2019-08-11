@@ -96,6 +96,14 @@ img {
     font-size: 1.3rem;
     margin-top: 0;
     color: var(--light);
+    text-align: center;
+}
+
+.showcase p1 {
+    font-size: 1.0rem;
+    margin-top: 0;
+    color: var(--light);
+    text-align: center;
 }
 
 /* Top Box */
