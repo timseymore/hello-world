@@ -6,9 +6,10 @@
     --shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
 }
 
+/* Styles by class */
 html {
     box-sizing: border-box;
-    font-size: Ariel, Helvetica, sans-serif;
+    font-family: Ariel, Helvetica, sans-serif;
     color: var(--dark);
 }
 
@@ -150,6 +151,7 @@ img {
     grid-gap: 30;
     grid-template-columns: repeat(2, 1fr);
     padding: 3rem;
+    text-align: center;
 }
 
 /* Portfolio */
