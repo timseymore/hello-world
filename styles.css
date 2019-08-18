@@ -2,6 +2,7 @@
 :root {
     --primary: #ddd;
     --dark: #333;
+    --mid-light: #ccc;
     --light: #fff;
     --shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
 }
@@ -14,7 +15,7 @@ html {
 }
 
 body {
-    background: #ccc;
+    background: var(--mid-light);
     margin: 30px 50px;
     line-height: 1.4;
 }
