@@ -15,14 +15,16 @@ html {
 }
 
 body {
-    background: var(--mid-light);
+    background: var(--light);
+    background-size: cover;
+    background-position: center;
     margin: 30px 50px;
     line-height: 1.4;
 }
 
 .btn {
     background: var(--dark);
-    color: var(--light);
+    color: var(--mid-light);
     padding: 0.6rem 1.3rem;
     text-decoration: none;
     border: 0;
