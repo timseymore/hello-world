@@ -226,7 +226,7 @@ img {
 /* Improvements */
 
 body {
-    padding: 1.5em;
+    padding: 1.0em;
     background: #222;
     line-height: 1.6em;
 }
@@ -237,6 +237,7 @@ body {
 
 h4 {
     font-size: 2.3em;
+    line-height: 2.6em;
 }
 
 .showcase {
