@@ -1,7 +1,7 @@
 :root {
     --white: #fff;
-    --primary: #ddd;
-    --light: #ccc;
+    --primary: #d8d8d8;
+    --light: #bdbdbd;
     --medium: #6d6a6a;
     --med-dark: #333; 
     --dark: #222222;   
@@ -237,6 +237,14 @@ body {
     grid-gap: 2.5em;
 }
 
+.top-box {
+    text-align: center;
+}
+
+ul {
+    text-align: left;
+}
+
 h2 {
     font-size: 2.3em;
     line-height: 1.5em;
@@ -254,12 +262,7 @@ h4 {
     color: var(--light);
 }
 
-li {
-    color: var(--light);
-}
-
 a:link {
-    color: auto;
     text-decoration: none;
 }
   
@@ -268,7 +271,7 @@ color: var(--light);
 }
 
 a:hover {
-color: var(--medium);
+color: var(--white);
 }
 
 a:active {
