@@ -2,7 +2,9 @@
     --white: #fff;
     --primary: #ddd;
     --light: #ccc;
-    --dark: #333;    
+    --medium: #6d6a6a;
+    --med-dark: #333; 
+    --dark: #222222;   
     --black: #000;
     --shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
 }
@@ -30,7 +32,7 @@ html {
 }
 
 body {
-    background: var(--dark);
+    background: var(--med-dark);
     background-size: cover;
     background-position: center;
     margin: 30px 50px;
@@ -38,7 +40,7 @@ body {
 }
 
 .btn {
-    background: var(--dark);
+    background: var(--med-dark);
     color: var(--light);
     padding: 0.6rem 1.3rem;
     text-decoration: none;
@@ -63,7 +65,7 @@ img {
 }
 
 .main-nav a {
-    background: var(--dark);
+    background: var(--med-dark);
     display: block;
     text-decoration: none;
     padding: 0.8rem;
@@ -76,7 +78,7 @@ img {
 
 .main-nav a:hover {
     background: var(--light);
-    color: var(--dark);
+    color: var(--med-dark);
 }
 
 .top-container {
@@ -123,7 +125,7 @@ img {
 }
 
 .top-box {
-    background: var(--dark);
+    background: var(--med-dark);
     display: grid;
     align-items: center;
     justify-items: center;
@@ -150,14 +152,14 @@ img {
 }
 
 .box {
-    background: var(--dark);
+    background: var(--med-dark);
     text-align: cener;
     padding: 1.5rem 2rem;
     box-shadow: var(--shadow);
 }
 
 .info {
-    background: var(--dark);
+    background: var(--med-dark);
     box-shadow: var(--shadow);
     display: grid;
     grid-gap: 30;
@@ -179,7 +181,7 @@ img {
 
  footer {
      margin-top: 2rem;
-     background: var(--dark);
+     background: var(--med-dark);
      color: var(--light);
      text-align: center;
      padding: 1rem;
@@ -227,7 +229,7 @@ img {
 
 body {
     padding: 1.0em;
-    background: #222;
+    background: var(--dark);
     line-height: 1.6em;
 }
 
@@ -235,11 +237,50 @@ body {
     grid-gap: 2.5em;
 }
 
+h2 {
+    font-size: 2.3em;
+    line-height: 1.5em;
+    color: var(--primary);
+}
+
 h4 {
     font-size: 2.3em;
-    line-height: 2.6em;
+    line-height: 1.5em;
+    color: var(--primary);
+    margin: 0;
+}
+
+.text {
+    color: var(--light);
+}
+
+li {
+    color: var(--light);
+}
+
+a:link {
+    color: auto;
+    text-decoration: none;
+}
+  
+a:visited {
+color: var(--light);
+}
+
+a:hover {
+color: var(--medium);
+}
+
+a:active {
+color: blue;
 }
 
 .showcase {
     line-height: 2.8em;
+}
+
+@media(max-width: 450px) {
+    body {
+        padding: .5em;
+    }
 }
