@@ -230,7 +230,7 @@ img {
 body {
     padding: 1.0em;
     background: var(--dark);
-    line-height: 1.6em;
+    line-height: 1.9em;
 }
 
 .wrapper {
@@ -241,8 +241,16 @@ body {
     text-align: center;
 }
 
+.top-box-a > p {
+    text-align: left;
+}
+
 ul {
     text-align: left;
+}
+
+li {
+    margin-bottom: 1.0em;
 }
 
 h2 {
@@ -260,10 +268,6 @@ h4 {
 
 .text {
     color: var(--light);
-}
-
-a:link {
-    text-decoration: none;
 }
   
 a:visited {
