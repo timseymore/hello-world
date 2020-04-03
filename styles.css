@@ -9,22 +9,6 @@
     --shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
 }
 
-a:link {
-    color:var(--light);
-}
-  
-a:visited {
-color: blue;
-}
-
-a:hover {
-color: var(--primary);
-}
-
-a:active {
-color: var(--white);
-}
-
 html {
     box-sizing: border-box;
     font-family: Ariel, Helvetica, sans-serif;
@@ -32,11 +16,38 @@ html {
 }
 
 body {
-    background: var(--med-dark);
+    background: var(--dark);
     background-size: cover;
     background-position: center;
     margin: 30px 50px;
     line-height: 1.4;
+    padding: 1.0em;
+    line-height: 1.9em;
+}
+
+.wrapper {
+    display: grid;
+    grid-gap: 2.5em;
+}
+
+.text {
+    color: var(--light);
+}
+  
+a:link {
+    color:var(--light);
+}
+
+a:visited {
+color: var(--light);
+}
+
+a:hover {
+color: var(--white);
+}
+
+a:active {
+color: blue;
 }
 
 .btn {
@@ -49,11 +60,6 @@ body {
 
 img {
     max-width: 100%;
-}
-
-.wrapper {
-    display: grid;
-    grid-gap: 20px;
 }
 
 .main-nav ul {
@@ -122,6 +128,7 @@ img {
     margin-top: 0;
     color: var(--light);
     text-align: center;
+    line-height: 2.8em;
 }
 
 .top-box {
@@ -131,6 +138,7 @@ img {
     justify-items: center;
     box-shadow: var(--shadow);
     padding: 1.5rem;
+    text-align: center;
 }
 
 .top-box .text {
@@ -139,6 +147,10 @@ img {
 
 .top-box-a {
     grid-area: top-box-a;
+}
+
+.top-box-a > p {
+    text-align: left;
 }
 
 .top-box-b {
@@ -188,6 +200,28 @@ img {
      box-shadow: var(--shadow);
  }
 
+ul {
+    text-align: left;
+}
+
+li {
+    margin-bottom: 1.0em;
+}
+
+h2 {
+    font-size: 2.3em;
+    line-height: 1.5em;
+    color: var(--primary);
+}
+
+h4 {
+    font-size: 2.3em;
+    line-height: 1.5em;
+    color: var(--primary);
+    margin: 0;
+}
+
+
  @media(max-width: 700px) {
      .top-container {
          grid-template-areas:
@@ -215,78 +249,14 @@ img {
 
  }
 
-@media(max-width: 500px) {
+@media(max-width: 450px) {
     .top-container {
         grid-template-areas:
            'showcase'
            'top-box-a'
            'top-box-b';
     }
-}
 
-
-/* Improvements */
-
-body {
-    padding: 1.0em;
-    background: var(--dark);
-    line-height: 1.9em;
-}
-
-.wrapper {
-    grid-gap: 2.5em;
-}
-
-.top-box {
-    text-align: center;
-}
-
-.top-box-a > p {
-    text-align: left;
-}
-
-ul {
-    text-align: left;
-}
-
-li {
-    margin-bottom: 1.0em;
-}
-
-h2 {
-    font-size: 2.3em;
-    line-height: 1.5em;
-    color: var(--primary);
-}
-
-h4 {
-    font-size: 2.3em;
-    line-height: 1.5em;
-    color: var(--primary);
-    margin: 0;
-}
-
-.text {
-    color: var(--light);
-}
-  
-a:visited {
-color: var(--light);
-}
-
-a:hover {
-color: var(--white);
-}
-
-a:active {
-color: blue;
-}
-
-.showcase {
-    line-height: 2.8em;
-}
-
-@media(max-width: 450px) {
     body {
         padding: .5em;
     }
